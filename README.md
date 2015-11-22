@@ -41,5 +41,5 @@ The scripts written to perform this task are outlined below and are grouped unde
 * ExtractData<-cbind(SubData1, SubData2)##combine meand std data into one dataset
 * ExtractData<-cbind(AllData["Activity"], ExtractData)
 
-5. Create a new clean dataset that calculates the average of each variable by activity
-AvgData<-aggregate(.~Activity, data=ExtractData, mean) ##create a separate clean dataset with average of each variable
+##5. Create a new clean dataset that calculates the average of each variable by activity
+* AvgData<-aggregate(.~Activity, data=ExtractData, mean) ##create a separate clean dataset with average of each variable
