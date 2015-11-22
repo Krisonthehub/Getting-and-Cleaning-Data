@@ -1,6 +1,11 @@
 # Getting-and-Cleaning-Data
-Assessment materials for Coursera course Getting and Cleaning Data November 2015
+Assessment materials for Coursera course Getting and Cleaning Data November 2015.
 The script run_analysis.R contains the code for importing and cleaning from two separate datasets to create a final clean dataset which is ready for further analysis. This final clean dataset is titled AvgData. 
+
+To run this script the following R packages are required:
+* write.table
+* dplyr
+
 
 The source data was taken from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 Further information about the data contained in the original sorce data can be found at : http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
