@@ -9,11 +9,11 @@ Further information about the data contained in the original sorce data can be f
 The scripts written to perform this task are outlined below and are grouped under the functions they perform
 
 ##1. Import the data 
-  *Train<-read.csv("train\\X_train.txt", header=FALSE, sep="") ##read in training data
-  *Test<-read.csv("test\\X_test.txt", header=FALSE, sep="") ##read in test data
-  *TrainLabels<-read.csv("train\\y_train.txt", header=FALSE, sep="") ##read in data for training labels
-  *TestLabels<-read.csv("test\\y_test.txt", header=FALSE, sep="") ##read in labels for test data
-  
+* Train<-read.csv("train\\X_train.txt", header=FALSE, sep="") ##read in training data
+* Test<-read.csv("test\\X_test.txt", header=FALSE, sep="") ##read in test data
+* TrainLabels<-read.csv("train\\y_train.txt", header=FALSE, sep="") ##read in data for training labels
+* TestLabels<-read.csv("test\\y_test.txt", header=FALSE, sep="") ##read in labels for test data
+
 ##2. Apply meaningful labels to data and combine as one
   from<-c("1", "2", "3", "4", "5", "6") ##identify label vectors for activities measured
   to<-c("WALKING", "WALKING_UP", "WALKING_DOWN", "SITTING", "STANDING", "LAYING") ##create new desired labels 
